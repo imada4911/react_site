@@ -15,7 +15,8 @@ export default function RootLayout({ children }) {
     <html lang="ja">
       <body className={inter.className}>
         <main className="flex-row flex">
-          <SideMenu />s
+          <SideMenu />
+          saaa
           <section className="pl-[300px] max-lg:pl-[146px] max-md:pl-[0] w-ful min-h-screen overflow-hidden">
             <TopMenu />
             {children}
